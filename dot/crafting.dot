@@ -1,0 +1,52 @@
+digraph graphname
+{
+    // --------------------------------------
+    // names for everything
+    // --------------------------------------
+
+    // harvestable materials
+    coal [label="Coal"]
+    crude_oil [label="Crude Oil"]
+    copper_ore [label="Copper Ore"]
+    iron_ore [label="Iron Ore"]
+    stone [label="Stone"]
+    uranium_ore [label="Uranium Ore"]
+    water [label="Water"]
+    wood [label="Wood"]
+
+    //  Intermediate Products
+
+    // TODO: Row 1
+    sulfuric_acid [label="Sulfuric Acid"]
+
+    iron_plate [label="Iron Plate"]
+    copper_plate [label="Copper Plate"]
+    steel_plate [label="Steel Plate"]
+    plastic_bar [label="Plastic Bar"]
+    sulfur [label="Sulfur"]
+    battery [label="Battery"]
+    explosives [label="Explosives"]
+    uranium_235 [label="Uranium-235"]
+    uranium_238 [label="Uranium-238"]
+
+    // TODO: Row 3
+    
+    // TODO: Row 4
+
+    // TODO: Row 5
+    copper_cable [label="Copper Cable"]
+    electronic_circuit [label="Electronic Circuit"]
+    engine_unit [label="Engine Unit"]
+    iron_gear_wheel [label="Iron Gear Wheel"]
+    iron_stick [label="Iron Stick"]
+
+    // TODO: Row 6
+    automation_science_pack [label="Automation Science Pack"]
+    logistic_science_pack [label="Logistic Science Pack"]
+    
+    // --------------------------------------
+    // actual graph
+    // --------------------------------------
+    a -> b -> c;
+    b -> d;
+}
