@@ -14,7 +14,36 @@ digraph graphname
     water [label="Water"]
     wood [label="Wood"]
 
-    //  Intermediate Products
+    //  **** Logistics ****
+
+    iron_chest [label="Iron Chest"]
+    steel_chest [label="Steel Chest"]
+    storage_tank [label="Storage Tank"]
+    wooden_chest [label="Wooden Chest"]
+    
+    // TODO: Row 2
+    fast_splitter [label="Fast Splitter"]
+    fast_transport_belt [label="Fast Transport Belt"]
+    fast_underground_belt [label="Fast Underground Belt"]
+    splitter [label="Splitter"]
+    transport_belt [label="Transport Belt"]
+    underground_belt [label="Underground Belt"]
+    
+    // TODO: Row 3
+    
+    // TODO: Row 4
+    
+    // TODO: Row 5
+    
+    // TODO: Row 6
+    
+    // TODO: Row 7
+    
+    // TODO: Row 8
+    
+    // TODO: Row 9
+
+    //  **** Intermediate Products ****
 
     // TODO: Row 1
     sulfuric_acid [label="Sulfuric Acid"]
@@ -47,6 +76,52 @@ digraph graphname
     // --------------------------------------
     // actual graph
     // --------------------------------------
-    a -> b -> c;
-    b -> d;
+    
+    //  **** Logistics ****
+
+    iron_plate -> iron_chest;
+    iron_plate -> storage_tank;
+    steel_plate -> steel_chest;
+    steel_plate -> storage_tank;
+    wood -> wooden_chest;
+    
+    // TODO: Row 2
+
+    // TODO: Row 3
+    
+    // TODO: Row 4
+    
+    // TODO: Row 5
+    
+    // TODO: Row 6
+    
+    // TODO: Row 7
+    
+    // TODO: Row 8
+    
+    // TODO: Row 9
+
+    // **** Intermediate Products ****
+    
+    // TODO: Row 1
+    
+    // TODO: Row 2
+    copper_ore -> copper_plate;
+    iron_ore -> iron_plate;
+    iron_plate -> steel_plate;
+    
+    // TODO: Row 3
+    
+    // TODO: Row 4
+    
+    // TODO: Row 5
+    copper_cable -> electronic_circuit;
+    copper_plate -> copper_cable;
+    iron_plate -> iron_gear_wheel;
+    iron_plate -> iron_stick;
+    iron_plate -> electronic_circuit;
+    
+    // TODO: Row 6
+    
+    // TODO: Row 7
 }
